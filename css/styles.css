@@ -35,7 +35,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -84,7 +84,7 @@ img {
   text-decoration: none;
   margin-right: 76px;
   padding: 0 15px;
-  padding: 24px 0px;
+  padding: 24px 0 24px;
 }
 
 .header-logo :focus {
@@ -129,7 +129,7 @@ img {
 .page-address-menu {
   display: flex;
   gap: 40px;
-  padding: 0 15px;
+  padding: 24px 0 24px;
 }
 
 .page-address-info {
@@ -137,13 +137,14 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
 
 /* ------- SLOGAN -------*/
 
 .slogan-container {
   background-color: #2e2f42;
-  padding: 188px 0px; 
+  padding: 188px 0 188px; 
 }
 
 .slogan-title {
@@ -347,7 +348,7 @@ img {
 }
 
 .footer-container {
-  padding: 100px 0px;
+  padding: 100px 0 100px; 
   margin-bottom: 16px;
 }
 
