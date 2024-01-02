@@ -42,14 +42,12 @@ img {
 /* ------- HEADER ------- */
 .header {
   font-family: "Roboto", sans-serif;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  margin: 0 auto;
-  padding: 0px 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -60,7 +58,6 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  margin: 0 auto;
 }
 
 .header-nav :hover,
@@ -74,7 +71,8 @@ img {
 }
 
 .header-menu-list {
-
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -88,8 +86,6 @@ img {
   text-decoration: none;
   margin-right: 76px;
   padding: 0 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo :focus {
@@ -146,6 +142,7 @@ img {
 /* ------- SLOGAN -------*/
 .slogan {
   padding: 188px 0 188px;
+  background-color: #2e2f42;
 }
 
 .slogan-container {
@@ -191,6 +188,11 @@ img {
 
 /* -------FEATURES ------- */
 
+.section-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -234,12 +236,9 @@ img {
 
 /* ------- TEAM ------- */
 
-.section {
+.section-team {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.section-bc {
   background-color: #f4f4fd;
 }
 
@@ -301,6 +300,11 @@ img {
 }
 
 /* ------- PORTFOLIO ------- */
+
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .portfolio-title {
   color: #2e2f42;
