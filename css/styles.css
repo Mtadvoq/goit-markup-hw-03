@@ -35,8 +35,8 @@ img {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* ------- HEADER ------- */
@@ -48,8 +48,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 0px 15px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .header-nav {
@@ -60,9 +60,10 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
-.header-nav :hover, 
+.header-nav :hover,
 .header-nav :focus {
   color: #404bbf;
 }
@@ -139,12 +140,11 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 
 /* ------- SLOGAN -------*/
 .slogan {
-  padding: 188px 0 188px; 
+  padding: 188px 0 188px;
 }
 
 .slogan-container {
@@ -176,7 +176,7 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  min-width: 169px; 
+  min-width: 169px;
   padding: 16px 32px;
   display: block;
   text-align: center;
