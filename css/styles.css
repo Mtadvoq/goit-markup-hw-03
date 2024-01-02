@@ -43,8 +43,6 @@ img {
 .header {
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-container {
@@ -73,6 +71,8 @@ img {
 }
 
 .header-menu-list {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
