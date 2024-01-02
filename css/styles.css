@@ -43,13 +43,13 @@ img {
 .header {
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   padding: 0px 15px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -73,7 +73,8 @@ img {
 }
 
 .header-menu-list {
-  padding: 24px 0 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
