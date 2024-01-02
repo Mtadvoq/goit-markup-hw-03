@@ -74,8 +74,7 @@ img {
 }
 
 .header-menu-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
+
 }
 
 .header-logo {
@@ -89,6 +88,8 @@ img {
   text-decoration: none;
   margin-right: 76px;
   padding: 0 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo :focus {
