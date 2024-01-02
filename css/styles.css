@@ -43,6 +43,7 @@ img {
 .header {
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 
 .header-container {
